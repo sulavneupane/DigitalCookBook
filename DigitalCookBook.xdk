@@ -6,7 +6,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-ad-project/sample.zip",
       "projectGuid": "ef1f58e8-46c9-4654-bef3-c04ff22f6a08",
-      "lastModifiedDate": 1480425120972,
+      "lastModifiedDate": 1480781269754,
       "creationDate": 1480422229091
     },
     "XDK-app-designer": "true",
@@ -76,7 +76,27 @@
         "gitref": "",
         "name": "Splashscreen",
         "description": "Cordova Splashscreen Plugin",
-        "checksum": "47137083"
+        "checksum": "47137083",
+        "cordovaVersion": ">=3.1.0"
+      },
+      {
+        "id": "cordova-plugin-inappbrowser",
+        "name": "InAppBrowser",
+        "version": "1.4.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-inappbrowser",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-inappbrowser",
+        "selectedState": "Included",
+        "checksum": "f88bc51f",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.1.0",
+        "permissions": {},
+        "description": "Cordova InAppBrowser Plugin",
+        "data": {},
+        "dependedBy": []
       }
     ],
     "buildConfigurations": {
